@@ -1,0 +1,86 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home {
+  background: url('../assets/music_hero.png');
+  background-attachment: initial;
+  background-position: right bottom -20%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heroText {
+  max-width: 800px;
+
+  span {
+    color: var(--color-music);
+  }
+}
+
+.name {
+  font-size: 71px !important;
+  font-weight: 600 !important;
+  line-height: 55px !important;
+  letter-spacing: 2px !important;
+  margin-block: 20px !important;
+}
+
+.secondP {
+  display: block;
+  font-size: 45px !important;
+  color: var(--color-music) !important;
+  letter-spacing: normal !important;
+}
+
+.descriptionP {
+  color: var(--color-text-alt) !important;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+
+
+.headerLineDecoration {
+  margin-top: 50px;
+  color: var(--color-text);
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+
+.headerLineDecoration::after {
+  content: '';
+  position: absolute;
+  width: 150px;
+  background-color: var(--color-text);
+  height: 1px;
+  left: 140px;
+  top: 16px;
+}
+
+.aboutmeImg {
+  width: 75%;
+  max-width: 450px;
+  margin: 30px auto;
+  border: 3px solid var(--color-text-alt-2);
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.aboutmeP {
+  color: var(--color2);
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.aboutmeI {
+  color: var(--color2);
+  margin-bottom: 20px;
+}
