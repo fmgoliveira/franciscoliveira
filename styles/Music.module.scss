@@ -26,7 +26,7 @@
   font-size: 71px !important;
   font-weight: 600 !important;
   line-height: 55px !important;
-  letter-spacing: 2px !important;
+  letter-spacing: 4px !important;
   margin-block: 20px !important;
 }
 
@@ -66,7 +66,7 @@
 .aboutmeImg {
   width: 75%;
   max-width: 450px;
-  margin: 30px auto;
+  margin: 30px 0 30px auto;
   border: 3px solid var(--color-text-alt-2);
   border-radius: 10px;
   width: 100%;
@@ -83,4 +83,89 @@
 .aboutmeI {
   color: var(--color2);
   margin-bottom: 20px;
+}
+
+.portfolioBox {
+  margin-block: 80px;
+}
+
+.projectImg {
+  width: 100%;
+  position: relative;
+  margin-inline: auto;
+
+  img {
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    margin-inline: auto;
+    display: block;
+  }
+}
+
+.projectImgOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color2);
+  opacity: 0.6;
+  border: 1px solid var(--color1);
+  min-width: 300px;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+.projectImgOverlay:hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.projectDescription {
+  max-width: 500px;
+  color: var(--color4);
+  text-align: left;
+  margin-bottom: 20px;
+  margin-inline: auto;
+}
+
+.projectDescriptionBox {
+  background-color: #112240;
+  padding: 30px 20px;
+  border: 1px solid #112240;
+  border-radius: 3px;
+  margin-block: 10px;
+  z-index: 333;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.3)
+}
+
+.projectDescriptionBox:hover {
+  border: 1px solid var(--color2);
+}
+
+#portfolio .span {
+  font-family: 'Fira Code', sans-serif;
+  font-size: 12.5px;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-block: 10px;
+}
+
+.techOfProjects {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 10px;
+  font-family: "Fira Code", sans-serif;
+}
+
+.linksOfProjects {
+  width: 55px;
+  display: flex;
+  justify-content: space-between;
 }
