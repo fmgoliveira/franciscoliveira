@@ -104,7 +104,8 @@ body {
 
 
 ::-webkit-scrollbar-thumb {
-  background: #b2988a;
+  background: #8f8f8f;
+  border-radius: 1.5px;
 }
 
 
@@ -171,11 +172,21 @@ a {
   border-radius: 4px;
   text-decoration: none;
   transition: 0.8s;
+
+  &.alt {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+  }
 }
 
 .btnDev:hover {
   background-color: var(--color-dev);
   color: var(--color-text);
+
+  &.alt {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+  }
 }
 
 .btnMusic {
@@ -188,11 +199,48 @@ a {
   border-radius: 4px;
   text-decoration: none;
   transition: 0.8s;
+
+  &.alt {
+    border: 2px solid var(--color-text);
+    color: var(--color-text);
+  }
 }
 
 .btnMusic:hover {
   background-color: var(--color-music);
   color: var(--color-text);
+
+  &.alt {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+  }
+}
+
+.btnLink {
+  padding: 13px 23px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  span {
+    color: var(--color-text-alt-2) !important;
+  }
+  color: var(--color-text-alt-2);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.8s;
+
+  &:hover {
+    i {
+      color: var(--color-music) !important;
+    }
+    span {
+      color: var(--color-text) !important;
+    }
+  }
 }
 
 .container {
