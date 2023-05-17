@@ -12,18 +12,36 @@
   display: flex;
   gap: 2rem;
   max-width: 1200px;
+  
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 8rem 0;
+  }
 
   .zone {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
     padding: 4rem;
     width: 50%;
     cursor: pointer;
     transition: all .2s ease-in-out;
     border-radius: 12px;
+
+    h1 {
+      margin-top: 2rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 0;
+    }
+
+    p {
+      color: var(--color-text-alt-2);
+      text-align: center;
+    }
 
     &:hover {
       scale: 1.02;
@@ -48,6 +66,12 @@
       width: 2px;
       height: 100%;
       background: linear-gradient(var(--color-dev), var(--color-music));
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, var(--color-dev), var(--color-music));
+      }
     }
   }
 }

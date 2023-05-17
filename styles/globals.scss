@@ -233,6 +233,11 @@ a {
   text-decoration: none;
   transition: 0.8s;
 
+  @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+    padding: 13px 23px 13px 0 !important;
+  }
+
   &:hover {
     i {
       color: var(--color-music) !important;
@@ -265,6 +270,10 @@ a {
   gap: 2rem;
   bottom: 0;
   left: 3rem;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 
   .socials {
     display: flex;
@@ -304,6 +313,10 @@ a {
   gap: 2rem;
   bottom: 0;
   right: 3rem;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 
   a {
     position: absolute;
@@ -362,7 +375,7 @@ header {
   }
 
   @media screen and (max-width: 768px) {
-    display: block;
+    // display: block;
   }
 }
 
@@ -458,28 +471,28 @@ span {
 }
 
 
-#contact {
-  margin-top: 200px;
-  text-align: center;
-  background-image: url('../assets/bgbg.webp');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 40px;
-}
+// #contact {
+//   margin-top: 200px;
+//   text-align: center;
+//   background-image: url('../assets/bgbg.webp');
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   padding: 40px;
+// }
 
-#contact .home-page-name {
-  font-size: 50px;
-}
+// #contact .home-page-name {
+//   font-size: 50px;
+// }
 
-#contact .description-p {
-  text-align: center;
-  margin: 30px auto;
-}
+// #contact .description-p {
+//   text-align: center;
+//   margin: 30px auto;
+// }
 
-#contact .contact-btn {
-  padding: 15px 25px;
-}
+// #contact .contact-btn {
+//   padding: 15px 25px;
+// }
 
 
 .builtby-p {
