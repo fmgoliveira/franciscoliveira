@@ -102,7 +102,7 @@ export default function Music() {
               <div className={styles.aboutmeText + " fadeRight"}>
                 <p className={styles.aboutmeP}>With no musical background in the family, I started, just like many others, in a philharmonic band, playing what is still today my favourite instrument - the trumpet.</p>
                 <p className={styles.aboutmeP}>It was probably in this environment that I got the inspiration to start composing... First listening, then reading, sometimes playing (😅), I ended up trying to write what others could also write. It wasn&apos;t easy to start - not even close - and sometimes it&apos;s hard to continue. I started by arranging pieces by other composers, until I found my own music.</p>
-                <p className={styles.aboutmeP}>Today I still play the trumpet and have learnt to &quot;use&quot; the piano to make my work easier. Most of my music is soundtracks and orchestral music, but in between are compositions for concert bands and classical music (both arrangements and original compositions).</p>
+                <p className={styles.aboutmeP}>Today I still play the trumpet and have learnt to noodle at the piano to make my work easier. Most of my music is soundtracks and orchestral music, but in between are compositions for concert bands and classical music (both arrangements and original compositions).</p>
                 <p className={styles.aboutmeP}>I am not planning to stop now and, whether playing or composing, finding the right motivation, I know I will stay connected to this wonderful world that is the world of music.</p>
                 <p className={styles.aboutmeP}><em>And what about you? Why don&apos;t you try it too?</em></p>
               </div>
