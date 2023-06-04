@@ -242,6 +242,9 @@ a {
     i {
       color: var(--color-music) !important;
     }
+    &.alt i {
+      color: var(--color-dev) !important;
+    }
     span {
       color: var(--color-text) !important;
     }
@@ -302,6 +305,15 @@ a {
       background-color: var(--color-music);
     }
   }
+
+  &.dev {
+    i:hover {
+      color: var(--color-dev);
+    }
+    span {
+      background-color: var(--color-dev);
+    }
+  }
 }
 
 .emailFlex {
@@ -338,6 +350,15 @@ a {
       width: 1px;
       height: 140px;
       background-color: var(--color-music);
+    }
+  }
+
+  &.dev {
+    a:hover {
+      color: var(--color-dev);
+    }
+    span {
+      background-color: var(--color-dev);
     }
   }
 }

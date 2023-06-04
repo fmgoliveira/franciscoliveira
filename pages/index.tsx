@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.scss'
-import logoDev from '@/assets/dev.svg'
-import logoMusic from '@/assets/music.svg'
+// import logoDev from '@/assets/dev.svg'
+import logoDev from '@/assets/dev-icon.png'
+// import logoMusic from '@/assets/music.svg'
+import logoMusic from '@/assets/music-icon.png'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
