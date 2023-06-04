@@ -24,7 +24,7 @@ export default function Music() {
   const [works, setWorks] = useState([]);
   const [music, setMusic] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [activeFilter, setActiveFilter] = useState('all');
+  const [activeFilter, setActiveFilter] = useState('All');
   const [filterWork, setFilterWork] = useState([]);
   const [tags, setTags] = useState<any[]>([]);
 
@@ -34,7 +34,7 @@ export default function Music() {
     const skillsQuery = '*[_type == "skills"]';
     client.fetch(skillsQuery).then((data) => setSkills(data));
     const worksQuery = '*[_type == "works"]';
-    client.fetch(worksQuery).then((data) => setWorks(data));
+    client.fetch(worksQuery).then((data) => { setWorks(data); setFilterWork(data); });
   }, []);
 
   useEffect(() => {

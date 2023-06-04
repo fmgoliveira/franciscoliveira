@@ -195,7 +195,9 @@
 
 .tagsContainer {
   display: flex;
+  align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 
   .tag {
     padding: 3px 25px;
@@ -269,16 +271,6 @@
       border-radius: 8px;
       background-position: center;
       background-size: cover;
-
-      @media screen and (max-width: 900px) {
-        width: calc(100vw / 2 - 120px);
-        height: calc(100vw / 2 - 120px);
-      }
-
-      @media screen and (max-width: 600px) {
-        width: calc(100vw - 120px);
-        height: calc(100vw - 120px);
-      }
 
       .boxImgOverlay {
         border-radius: 8px;
