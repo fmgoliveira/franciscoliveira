@@ -20,7 +20,7 @@ export default function Home() {
         }
       })
     })
-    
+
     document.querySelectorAll('.fadeLeft').forEach((el) => observer.observe(el));
     document.querySelectorAll('.fadeRight').forEach((el) => observer.observe(el));
     document.querySelectorAll('.fadeUp').forEach((el) => observer.observe(el));
@@ -32,9 +32,23 @@ export default function Home() {
     <>
       <Head>
         <title>Francisco Oliveira</title>
-        <meta name="description" content="Developer. Designer. Musician. Student. More." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Developer. Designer. Musician. Composer. More." />
         <link rel="icon" href="/favicon.png" />
+
+        <meta property="og:url" content="https://franciscoliveira.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Francisco Oliveira" />
+        <meta property="og:description" content="Developer. Designer. Musician. Composer. More." />
+        <meta property="og:image" content="/banner.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="franciscoliveira.com/" />
+        <meta property="twitter:url" content="https://franciscoliveira.com/" />
+        <meta name="twitter:title" content="Francisco Oliveira" />
+        <meta name="twitter:description" content="Developer. Designer. Musician. Composer. More." />
+        <meta name="twitter:image" content="/banner.png" />
+
+        <meta name="viewport" content="width=ice-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
         <div className={styles.container}>
