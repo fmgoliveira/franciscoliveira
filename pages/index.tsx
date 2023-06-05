@@ -42,7 +42,7 @@ export default function Home() {
         <meta property="og:image" content="/banner.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="franciscoliveira.com/" />
+        <meta property="twitter:domain" content="franciscoliveira.com" />
         <meta property="twitter:url" content="https://franciscoliveira.com/" />
         <meta name="twitter:title" content="Francisco Oliveira" />
         <meta name="twitter:description" content="Developer. Designer. Musician. Composer. More." />
