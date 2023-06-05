@@ -80,6 +80,7 @@ export default function Music() {
         <meta property="og:title" content="Francisco Oliveira" />
         <meta property="og:description" content="Developer. Designer. More." />
         <meta property="og:image" content="/banner-dev.png" />
+        <meta name="theme-color" content="#ed6326" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="franciscoliveira.com/dev" />
