@@ -72,9 +72,23 @@ export default function Music() {
     <>
       <Head>
         <title>Francisco Oliveira</title>
-        <meta name="description" content="Developer. Designer. Musician. Student. More." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Developer. Designer. More." />
         <link rel="icon" href="/favicon.png" />
+
+        <meta property="og:url" content="https://franciscoliveira.com/dev" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Francisco Oliveira" />
+        <meta property="og:description" content="Developer. Designer. More." />
+        <meta property="og:image" content="/banner-dev.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="franciscoliveira.com/dev" />
+        <meta property="twitter:url" content="https://franciscoliveira.com/dev" />
+        <meta name="twitter:title" content="Francisco Oliveira" />
+        <meta name="twitter:description" content="Developer. Designer. More." />
+        <meta name="twitter:image" content="/banner-dev.png" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
         <header id="header">

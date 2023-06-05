@@ -50,10 +50,24 @@ export default function Music() {
   return (
     <>
       <Head>
-        <title>Francisco Oliveira</title>
-        <meta name="description" content="Developer. Designer. Musician. Student. More." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Francisco Oliveira</title>
+        <meta name="description" content="Musician. Producer. Composer." />
         <link rel="icon" href="/favicon_music.png" />
+
+        <meta property="og:url" content="https://franciscoliveira.com/music" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Francisco Oliveira" />
+        <meta property="og:description" content="Musician. Producer. Composer." />
+        <meta property="og:image" content="/banner-music.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="franciscoliveira.com/music" />
+        <meta property="twitter:url" content="https://franciscoliveira.com/music" />
+        <meta name="twitter:title" content="Francisco Oliveira" />
+        <meta name="twitter:description" content="Musician. Producer. Composer." />
+        <meta name="twitter:image" content="/banner-music.png" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
         <header id="header">
