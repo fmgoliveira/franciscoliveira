@@ -50,7 +50,7 @@ export default function Music() {
   return (
     <>
       <Head>
-      <title>Francisco Oliveira</title>
+        <title>Francisco Oliveira</title>
         <meta name="description" content="Musician. Producer. Composer." />
         <link rel="icon" href="/favicon_music.png" />
 
@@ -188,7 +188,7 @@ export default function Music() {
           <span className={styles.span}>What&apos;s next?</span>
           <p className={styles.name}>Get In Touch</p>
           <p className={styles.descriptionP}>Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!</p>
-          <a href="mailto:franciscomgomesoliveira@gmail.com" className={styles.contactBtn + ' btnMusic'}>Say Hello</a>
+          <a href="mailto:francisco@franciscoliveira.com" className={styles.contactBtn + ' btnMusic'}>Say Hello</a>
         </section >
 
         <div className={styles.copyright}>
@@ -207,7 +207,7 @@ export default function Music() {
         </div>
 
         <div className="emailFlex fadeUp">
-          <a href='mailto:franciscomgomesoliveira@gmail.com' target='_blank'>franciscomgomesoliveira@gmail.com</a>
+          <a href='mailto:francisco@franciscoliveira.com' target='_blank'>francisco@franciscoliveira.com</a>
           <div className="line"><span></span></div>
         </div>
 
