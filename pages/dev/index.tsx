@@ -222,6 +222,7 @@ export default function Music() {
           <span></span>
           <div>
             <a href="https://discord.com/users/549619189271494676" target="_blank"><i className="fa-brands fa-discord"></i></a>
+            <a href="https://t.me/olivei_f" target="_blank"><i className="fa-brands fa-telegram"></i></a>
             <a href="https://github.com/dr-monocle" target="_blank"><i className="fa-brands fa-github"></i></a>
             <a href="mailto:francisco@franciscoliveira.com" target="_blank"><i className="fa-solid fa-envelope"></i></a>
           </div>
@@ -232,7 +233,7 @@ export default function Music() {
           <span className={styles.span}>What&apos;s next?</span>
           <p className={styles.name}>Get In Touch</p>
           <p className={styles.descriptionP}>Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!</p>
-          <a href="mailto:francisco@franciscoliveira.com" className={styles.contactBtn + ' btnDev'}>Say Hello</a>
+          <a href="https://t.me/olivei_f" target="_blank" className={styles.contactBtn + ' btnDev'}>Say Hello</a>
         </section >
 
         <div className={styles.copyright}>
@@ -243,6 +244,7 @@ export default function Music() {
         <div className="socialFlex dev fadeUp">
           <div className="socials">
             <a href="https://discord.com/users/549619189271494676" target="_blank"><i className="fa-brands fa-discord"></i></a>
+            <a href="https://t.me/olivei_f" target="_blank"><i className="fa-brands fa-telegram"></i></a>
             <a href="https://github.com/dr-monocle" target="_blank"><i className="fa-brands fa-github"></i></a>
           </div>
           <div className="line"><span></span></div>
