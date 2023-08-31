@@ -222,7 +222,7 @@ export default function Music() {
           <span></span>
           <div>
             <a href="https://discord.com/users/549619189271494676" target="_blank"><i className="fa-brands fa-discord"></i></a>
-            <a href="https://github.com/dr-monocle" target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://github.com/fmgoliveira" target="_blank"><i className="fa-brands fa-github"></i></a>
             <a href="mailto:francisco@franciscoliveira.com" target="_blank"><i className="fa-solid fa-envelope"></i></a>
           </div>
           <span></span>
@@ -244,7 +244,7 @@ export default function Music() {
           <div className="socials">
             <a href="https://discord.com/users/549619189271494676" target="_blank"><i className="fa-brands fa-discord"></i></a>
             <a href="https://t.me/olivei_f" target="_blank"><i className="fa-brands fa-telegram"></i></a>
-            <a href="https://github.com/dr-monocle" target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://github.com/fmgoliveira" target="_blank"><i className="fa-brands fa-github"></i></a>
           </div>
           <div className="line"><span></span></div>
         </div>
