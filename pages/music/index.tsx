@@ -188,7 +188,7 @@ export default function Music() {
           <span className={styles.span}>What&apos;s next?</span>
           <p className={styles.name}>Get In Touch</p>
           <p className={styles.descriptionP}>Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!</p>
-          <a href="mailto:francisco@franciscoliveira.com" className={styles.contactBtn + ' btnMusic'}>Say Hello</a>
+          <a href="https://t.me/f_olivei" target="_blank" className={styles.contactBtn + ' btnMusic'}>Say Hello</a>
         </section >
 
         <div className={styles.copyright}>
@@ -202,6 +202,7 @@ export default function Music() {
             <a href="https://youtube.com/@franciscooliveira_music" target="_blank"><i className="fa-brands fa-youtube"></i></a>
             <a href="https://instagram.com/franciscooliveira.music" target="_blank"><i className="fa-brands fa-instagram"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100091631861736" target="_blank"><i className="fa-brands fa-facebook"></i></a>
+            <a href="https://t.me/f_olivei" target="_blank"><i className="fa-brands fa-telegram"></i></a>
           </div>
           <div className="line"><span></span></div>
         </div>
