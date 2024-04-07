@@ -39,14 +39,14 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Francisco Oliveira" />
         <meta property="og:description" content="Developer. Designer. Musician. Composer. More." />
-        <meta property="og:image" content="/banner.png" />
+        <meta property="og:image" content="/favicon.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="franciscoliveira.com" />
         <meta property="twitter:url" content="https://franciscoliveira.com/" />
         <meta name="twitter:title" content="Francisco Oliveira" />
         <meta name="twitter:description" content="Developer. Designer. Musician. Composer. More." />
-        <meta name="twitter:image" content="/banner.png" />
+        <meta name="twitter:image" content="/favicon.png" />
 
         <meta name="viewport" content="width=ice-width, initial-scale=1" />
       </Head>
