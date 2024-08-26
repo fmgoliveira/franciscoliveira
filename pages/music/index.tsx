@@ -254,40 +254,22 @@ export default function Music() {
         <section className={styles.socials}>
           <span></span>
           <div>
-            <a
-              href="https://open.spotify.com/artist/4yBQABhPKupyNjFAUrQjkh"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/spotify" target="_blank">
               <i className="fa-brands fa-spotify"></i>
             </a>
-            <a
-              href="https://music.apple.com/us/artist/francisco-oliveira/1683345218"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/itunes" target="_blank">
               <i className="fa-brands fa-itunes"></i>
             </a>
-            <a
-              href="https://deezer.page.link/JDBUgujznCLZau6F9"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/deezer" target="_blank">
               <i className="fa-brands fa-deezer"></i>
             </a>
-            <a
-              href="https://youtube.com/@franciscooliveira_music"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/youtube" target="_blank">
               <i className="fa-brands fa-youtube"></i>
             </a>
-            <a
-              href="https://instagram.com/franciscooliveira.music"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/insta-music" target="_blank">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=61558204589546"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/fb-music" target="_blank">
               <i className="fa-brands fa-facebook"></i>
             </a>
           </div>
@@ -302,7 +284,7 @@ export default function Music() {
             best to get back to you!
           </p>
           <a
-            href="https://t.me/fgolivei"
+            href="https://foliv.my.to/telegram"
             target="_blank"
             className={styles.contactBtn + " btnMusic"}
           >
@@ -316,31 +298,19 @@ export default function Music() {
 
         <div className="socialFlex fadeUp">
           <div className="socials">
-            <a
-              href="https://open.spotify.com/artist/4yBQABhPKupyNjFAUrQjkh"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/spotify" target="_blank">
               <i className="fa-brands fa-spotify"></i>
             </a>
-            <a
-              href="https://youtube.com/@franciscooliveira_music"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/youtube" target="_blank">
               <i className="fa-brands fa-youtube"></i>
             </a>
-            <a
-              href="https://instagram.com/franciscooliveira.music"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/insta-music" target="_blank">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=61558204589546"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/fb-music" target="_blank">
               <i className="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://t.me/fgolivei" target="_blank">
+            <a href="https://foliv.my.to/telegram" target="_blank">
               <i className="fa-brands fa-telegram"></i>
             </a>
           </div>

@@ -13,8 +13,6 @@ export default function Music() {
   const [abouts, setAbouts] = useState([]);
   const [skills, setSkills] = useState([]);
   const [works, setWorks] = useState([]);
-  const [music, setMusic] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [activeFilter, setActiveFilter] = useState("All");
   const [filterWork, setFilterWork] = useState([]);
   const [tags, setTags] = useState<any[]>([]);
@@ -300,13 +298,10 @@ export default function Music() {
         <section className={styles.socials}>
           <span></span>
           <div>
-            <a
-              href="https://discord.com/users/549619189271494676"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/discord" target="_blank">
               <i className="fa-brands fa-discord"></i>
             </a>
-            <a href="https://github.com/fmgoliveira" target="_blank">
+            <a href="https://foliv.my.to/github" target="_blank">
               <i className="fa-brands fa-github"></i>
             </a>
             <a href="mailto:francisco@franciscoliveira.com" target="_blank">
@@ -324,7 +319,7 @@ export default function Music() {
             best to get back to you!
           </p>
           <a
-            href="https://t.me/fgolivei"
+            href="https://foliv.my.to/telegram"
             target="_blank"
             className={styles.contactBtn + " btnDev"}
           >
@@ -338,16 +333,13 @@ export default function Music() {
 
         <div className="socialFlex dev fadeUp">
           <div className="socials">
-            <a
-              href="https://discord.com/users/549619189271494676"
-              target="_blank"
-            >
+            <a href="https://foliv.my.to/discord" target="_blank">
               <i className="fa-brands fa-discord"></i>
             </a>
-            <a href="https://t.me/fgolivei" target="_blank">
+            <a href="https://foliv.my.to/telegram" target="_blank">
               <i className="fa-brands fa-telegram"></i>
             </a>
-            <a href="https://github.com/fmgoliveira" target="_blank">
+            <a href="https://foliv.my.to/github" target="_blank">
               <i className="fa-brands fa-github"></i>
             </a>
           </div>
