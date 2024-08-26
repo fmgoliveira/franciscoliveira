@@ -324,7 +324,7 @@ export default function Music() {
             best to get back to you!
           </p>
           <a
-            href="https://t.me/f_olivei"
+            href="https://t.me/fgolivei"
             target="_blank"
             className={styles.contactBtn + " btnDev"}
           >
@@ -344,7 +344,7 @@ export default function Music() {
             >
               <i className="fa-brands fa-discord"></i>
             </a>
-            <a href="https://t.me/f_olivei" target="_blank">
+            <a href="https://t.me/fgolivei" target="_blank">
               <i className="fa-brands fa-telegram"></i>
             </a>
             <a href="https://github.com/fmgoliveira" target="_blank">
